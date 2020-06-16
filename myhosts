@@ -1,0 +1,12 @@
+hosts:
+  host1:
+  host2:
+  host3:
+children:
+  dev:
+    hosts:
+      host1:
+      host2:
+  stage:
+    hosts:
+      host3:
