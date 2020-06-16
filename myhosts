@@ -1,10 +1,10 @@
 [dev]
-192.168.5.1
-192.168.5.2
-192.168.5.50
+nimble1.example.com rest_ip='192.168.12.3'
+nimble2.example.com rest_ip='192.168.12.7'
+nimble3.example.com rest_ip='192.168.12.21'
 
 [stage]
-192.168.5.3
+nimble143.example.com
 
 [int]
 www.usatoday.com
